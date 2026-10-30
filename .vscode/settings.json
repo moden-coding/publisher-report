@@ -1,0 +1,8 @@
+{
+  "python.testing.unittestEnabled": true,
+  "python.testing.pytestEnabled": false,
+  "python.testing.unittestArgs": ["-v", "-s", "./tests", "-p", "test_*.py", "-t", "."],
+  "python.terminal.activateEnvironment": true,
+  "files.autoSave": "afterDelay",
+  "files.exclude": { "**/__pycache__": true, "**/.pytest_cache": true }
+}
